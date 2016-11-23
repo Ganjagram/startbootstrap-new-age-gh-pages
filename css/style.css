@@ -29,3 +29,7 @@ section.features .feature-item i {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     }
+
+#download a{
+	color:#999;
+}
