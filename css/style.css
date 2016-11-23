@@ -1,0 +1,31 @@
+header {
+	    color: #1B7986;
+	background: url(../img/ganjagram-background.jpg);
+	background-size:cover;
+    }
+
+.btn-outline.active, .btn-outline:active, .btn-outline:focus, .btn-outline:hover {
+	    color: #1B7986;
+	        background-color: #fdcc52;
+		    border-color: #fdcc52;
+	    }
+.btn-outline{
+            color: #1B7986;
+}
+.cta .btn-outline{
+            color: #fff;
+}
+.navbar-default .navbar-header .navbar-brand, .navbar-default .navbar-header .navbar-brand:focus, .navbar-default .navbar-header .navbar-brand:hover {
+	    color: #1B7986;
+    }
+
+.navbar-default .nav > li > a, .navbar-default .nav > li > a:focus {
+	    color: #1B7986;
+    }
+
+section.features .feature-item i {
+   background: -webkit-linear-gradient(to left,#226f69,#a3da72);
+    background: linear-gradient(to left,#226f69,#a3da72);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
