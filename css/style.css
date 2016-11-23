@@ -24,8 +24,8 @@ header {
     }
 
 section.features .feature-item i {
-   background: -webkit-linear-gradient(to left,#226f69,#a3da72);
-    background: linear-gradient(to left,#226f69,#a3da72);
+   background: -webkit-linear-gradient(to right,#226f69,#a3da72);
+    background: linear-gradient(to right,#226f69,#a3da72);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     }
