@@ -24,6 +24,9 @@
     <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
     <link rel="stylesheet" href="vendor/device-mockups/device-mockups.min.css">
 
+
+    <!-- Chatbox CSS -->
+    <link href="https://api.motion.ai/sdk/webchat.css" rel="stylesheet" type="text/css">
     <!-- Theme CSS -->
     <link href="css/new-age.min.css" rel="stylesheet">
     <!-- CSS Overrides -->
@@ -47,7 +50,7 @@
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-		<a class="navbar-brand page-scroll" href="#page-top"><img src="img/ganjagram-logo-text-small.png" style="height:30px;" ></a>
+		<a class="navbar-brand page-scroll" href="#page-top"><img src="img/ganjagram-logo-text-small.png" alt="Ganjagram" style="height:30px;" ></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -163,7 +166,7 @@
                                 <div class="feature-item">
                                     <i class="icon-present text-primary"></i>
                                     <h3>A Welcome Package</h3>
-                                    <p class="text-muted">Recieve a welcome package delivered to you when you arrive in Jamaica!</p>
+                                    <p class="text-muted">Recieve a free gift delivered to you when you arrive in Jamaica!</p>
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -207,8 +210,7 @@
         </div>
     </section>
 	<div id="chatbot">
-	  <link href="https://api.motion.ai/sdk/webchat.css" rel="stylesheet" type="text/css">
-  <script src="https://api.motion.ai/sdk/webchat.js"></script>
+  <script src="./js/chatbot.js"></script>
   <script>
   motionAI_Init('16299?color=62a8ea&sendBtn=SEND&inputBox=Type+something...&token=517294ca669557f55f0af641a6df0251',true,400,470); /* botID with access token, display bot icon?, modal width, modal height */
   /* you may also invoke motionAI_Open(); to manually open the modal */
