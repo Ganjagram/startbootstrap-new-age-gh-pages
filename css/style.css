@@ -38,4 +38,12 @@ section.features .feature-item i {
 	background-color:#1B7986;
 }
 
-
+#mainNav.affix-top  .nav>li >a:hover,
+#mainNav.affix  .nav>li >a:hover,
+.navbar-default .nav>li.active>a:focus,
+.navbar-default .nav>li.active>a:focus:hover,
+.navbar-default .nav>li.active>a:hover,
+.navbar-default .nav>li > a:focus,
+.navbar-default .nav>li > a:hover {
+	    color: #fdcc52;
+}
