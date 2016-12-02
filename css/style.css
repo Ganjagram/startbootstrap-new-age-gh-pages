@@ -47,3 +47,7 @@ section.features .feature-item i {
 .navbar-default .nav>li > a:hover {
 	    color: #fdcc52;
 }
+
+#my_centered_buttons { 
+	display: flex; justify-content: center; 
+}
